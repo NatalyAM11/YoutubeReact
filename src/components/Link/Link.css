@@ -1,0 +1,18 @@
+.Link{
+    color:rgb(172, 172, 172);
+    width: 15%;
+    text-decoration: none;
+    padding: 12px 25px;
+}
+
+.Link:hover{
+    font-weight:700;
+    color: white;
+}
+
+.Link_selected{
+    color:white;
+    width: 15%;
+    text-decoration: none;
+    padding: 12px 25px;
+}

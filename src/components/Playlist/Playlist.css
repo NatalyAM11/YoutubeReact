@@ -1,0 +1,26 @@
+.Playlist{
+    width: 180px;
+    height: 180px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Playlist_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+}
+
+.Playlist_name{
+    color: white;
+    margin: 0px;
+}
+
+.Playlist_songs{
+    color:rgb(172, 172, 172);
+    margin-top: 0px;
+    font-size: 14px;
+}
+

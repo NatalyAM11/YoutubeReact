@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+ 
+}
+
+body{
+  background-color: black;
+  padding-bottom: 250px;
+}
+
+.App__nav{
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: center;   
+  justify-content: space-around;
+  padding: 15px 30px;
+  box-sizing: border-box;
+}
+
+.App__optionsDiv{
+  width: 60%;
+  margin-left: 25%;
+  font-weight: 600;
+}
+
+.App__aDiv{
+  width: 8%;
+}
+
+.App__navLogo{
+ 
+}
+
+.App__navProfilePic{
+  width: 45%;
+}
+
+.App_navInput{
+  color:rgb(172, 172, 172);
+  background-color: black;
+  height: 25px;
+  border-width: 0px;
+  font-size: 18px;
+}
+
+.App_favorites{
+  width: 100%;
+  margin-top: 60px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.App_favoritesItems,
+.App_similarItems{
+  width: 100%;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-evenly;
+}
+
+.App_similar{
+  width: 100%;
+  margin-top: 150px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.App_similarTitle{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.App_similarPic{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.App_similarTitleDiv{
+  width: 100%;
+  margin-left: 15px;
+}
+
+.App_similarMiniTitle{
+  color:rgb(172, 172, 172);
+  font-weight: 400;
+}
+
+.App_similarArtist{
+  font-size: 28px;
+}
+
+h2{
+  color: white;
+  margin: 0px;
+}
+
+h4{
+  color: white;
+  margin: 0px;
+}
+
+.hidden{
+  display: none;
+}
